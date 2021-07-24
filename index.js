@@ -32,7 +32,7 @@ if ((process.env.NODE_ENV == 'development')) {
     app.use(cors({ origin: `http://localhost:3000` }));
 }
 if ((process.env.NODE_ENV == 'production')) {
-    app.use(cors({ origin: `https://g-connect.vercel.app` }));
+    app.use(cors({ origin: `https://qa-flow.vercel.app`}));
 }
 
 // middleware
