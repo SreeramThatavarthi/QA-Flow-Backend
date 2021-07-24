@@ -47,5 +47,5 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) =>
-    res.json({ message: 'G-Connect API are ready to serve 🚀' })
+    res.json({ message: 'QA-Flow API are ready to serve 🚀' })
 );
