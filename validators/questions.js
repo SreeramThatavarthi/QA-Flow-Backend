@@ -59,7 +59,6 @@ exports.editQuestionValidator = [
         .withMessage("body is required")
         .isString()
         .withMessage("only string allowed as body"),
-    check("tags").not().isEmpty().isArray().withMessage("tags array is required"),
 ];
 
 exports.checkQuestionIdValidator = [
